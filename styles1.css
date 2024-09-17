@@ -1,0 +1,35 @@
+.table-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}  
+.table-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .table-white th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .table-white td {
+    color: #666;
+  }
+
+  .table-white tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+  .table-white tbody tr:hover {
+    background-color: #eee;
+  }
+
+  .table-white td,
+  .table-white th {
+    text-align: center;
+    vertical-align: middle !important;
+}
